@@ -13,7 +13,7 @@ body {
 	justify-content: center;
 	flex-direction: column;
 
-	background-color: white;
+	background-color: #f3f3f3;
 }
 
 .container {
@@ -39,9 +39,10 @@ input:not(:last-child) {
 
 .example-2 .btn-tertiary {
 	color: black;
+	background-color: white;
 	padding: 0;
 	line-height: 30px;
-	width: 200px;
+	width: 240px;
 	display: block;
 	border: 2px solid #4caf50;
 	border-radius: 4px;

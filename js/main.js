@@ -33,13 +33,13 @@ acceptBtn.addEventListener('click', (e) => {
 	console.log(number.value);
 	e.preventDefault();
 	ctx.fillStyle = 'black';
-	ctx.font = 'bold 11pt Verdana';
+	ctx.font = 'bold 11pt Open Sans';
 	ctx.fillText(number.value, 260, 108.5);
-	ctx.font = 'bold 11pt Verdana';
+	ctx.font = 'bold 11pt Open Sans';
 	ctx.fillText(charName.value, 171, 150);
-	ctx.font = '9pt Verdana';
+	ctx.font = '9pt Open Sans';
 	ctx.fillText(prof.value, 171, 180);
-	ctx.font = '8pt Verdana';
+	ctx.font = '8pt Open Sans';
 	ctx.fillText(from.value, 183, 254);
 	ctx.fillText(to.value, 305, 254);
 });
