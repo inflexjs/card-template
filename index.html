@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+	<title>DEAD SIDE - Card Template</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<form class="container">
+		<img style="display:none" src="https://psv4.userapi.com/c536436/u81700007/docs/d10/7ef0e76490b5/propysk.png?extra=K5-AZxyqQ50cSkmpHzzJ_ICuVnvvOsAL4lqozwbZPfOyzMQrR-gtlqexDJl_jVXxiMrJUtstAdXs5WzCE3jtqoQx7htIZUtiLWjbKVWx86CPxPA0diqXcvDN3Y3-iXQ9kIGWRm7WYwk_F2_sOO4r" crossorigin="anonymous"/>
+		<div class="input-container">
+			<input type="text" id="number" placeholder="Номер пропуска"/>
+			<input type="text" id="name" placeholder="ФИО" />
+			<input type="text" id="prof" placeholder="Должность" />
+			<input type="text" id="from" placeholder="Дата начала" />
+			<input type="text" id="to" placeholder="Дата окончания" />
+			<div class="example-2">
+				<div class="form-group">
+					<input type="file" name="file" id="uploader" class="input-file">
+					<label for="uploader" class="btn btn-tertiary js-labelFile">
+						<span class="js-fileName">Загрузить картинку</span>
+					</label>
+				</div>
+			</div>
+			<p class="descr">Размеры картинки: 135 ширина и 155 высота</p>
+			<div class="btn-container">
+				<button class="accept">Применить</button>
+				<button type="submit" class="save">Сохранить</button>
+			</div>
+		</div>
+	</form>
+
+	<canvas id="canvas"></canvas>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>	
