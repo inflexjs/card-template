@@ -31,7 +31,7 @@ acceptBtn.addEventListener('click', (e) => {
 	e.preventDefault();
 	ctx.fillStyle = 'black';
 	ctx.font = 'bold 11pt Verdana';
-	ctx.fillText(number.value, 260, 109);
+	ctx.fillText(number.value, 260, 108.5);
 	ctx.font = 'bold 11pt Verdana';
 	ctx.fillText(charName.value, 171, 150);
 	ctx.font = '9pt Verdana';
