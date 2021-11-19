@@ -10,7 +10,10 @@ const saveBtn = document.querySelector('.save');
 let ctx = canvas.getContext('2d');
 canvas.width = $('img').width();
 canvas.height = $('img').height();
-ctx.drawImage($('img').get(0), 0, 0);
+
+window.onload = function () {
+	ctx.drawImage($('img').get(0), 0, 0);
+};
 
 function handleImage(e) {
 	let reader = new FileReader();
